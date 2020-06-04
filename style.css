@@ -1,0 +1,153 @@
+body{
+	margin-left: 200px;
+	margin-right: 200px;
+	background-color: rgb(255, 254, 253);
+}
+
+h1, h3{
+	text-align: center;
+}
+
+.header{
+	background-image: url("campus.jpg");
+	background-repeat: no-repeat;
+	padding-bottom: 10px;
+}
+
+.header img{
+	height: 100px;
+	width: 100px;
+	padding-bottom: 0px;
+}
+
+h1{
+	font-family: 'Amatic SC', cursive;
+	color: rgb(111, 37, 111);
+	font-size: 120px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+h3{
+	font-family: 'Special Elite', cursive;
+	color: rgb(111, 37, 111);
+ 	font-size: 20px;
+ 	margin-top: 0px;
+ 	margin-bottom: 0px;
+}
+
+.pages{
+	padding: 20px;
+	border-width: 2px;
+	border-style: solid none solid none;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.pages a{
+	font-family: 'Amatic SC', cursive;
+	color: rgb(11, 15, 11);
+	font-size: 30px;
+	padding: 80px;
+}
+
+.pages i{
+	padding-left: 50px;
+}
+
+.covid{
+	background-color: rgb(163, 26, 22);
+	padding: 5px;
+}
+
+.covid a{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	color: rgb(255, 248, 50);
+}
+
+.covid i{
+  	float: right;
+  	padding: 5px;
+}
+
+.about, .pic, .error, p, li{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+}
+
+.actors{
+	background-color: rgba(16, 142, 121, 0.5);
+	float: right;
+	width: 310px;
+	margin-top: 20px;
+	margin-right: 50px;
+  	padding: 10px;
+  	border-radius: 25px;
+}
+
+.actors p{
+	text-align: center;
+	background-color: rgb(16, 142, 121);
+	margin-top: 5px;
+	border-radius: 15px;
+}
+
+.actors img{
+	height: 90px;
+	width: 90px;
+	padding: 30px;
+}
+
+.about{
+	padding-top: 20px;
+}
+
+.images{
+	float: right;
+	width: 400px;
+	padding: 30px;
+	padding-top: 0px;
+}
+
+.images img{
+	border-radius: 25px;
+	box-shadow: 7px 7px 3px rgb(180, 180, 180);
+}
+
+ul{
+	float: left;
+	width: 200px;
+}
+
+li:hover{
+	text-decoration: underline;
+}
+
+.items img{
+	width: 150px;
+	height: 150px;
+	float: left;
+	border-style: solid;
+	border-color: rgb(200, 200, 200);
+	border-width: 2px;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+
+.pic{
+	float: right;
+	width: 800px;
+	padding: 20px;
+}
+
+.error{
+	margin-right: 10px;
+	margin-left: 10px;
+}
