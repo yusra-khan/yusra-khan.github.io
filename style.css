@@ -1,6 +1,7 @@
+/*ALL PAGES*/
 body{
-	margin-left: 200px;
-	margin-right: 200px;
+	margin-left: 15%;
+	margin-right: 15%;
 	background-color: rgb(255, 254, 253);
 }
 
@@ -11,33 +12,35 @@ h1, h3{
 .header{
 	background-image: url("campus.jpg");
 	background-repeat: no-repeat;
-	padding-bottom: 10px;
+	padding-bottom: 0.75%;
 }
 
+/*The icon in the title*/
 .header img{
-	height: 100px;
-	width: 100px;
+	height: 10%;
+	width: 10%;
 	padding-bottom: 0px;
 }
 
 h1{
 	font-family: 'Amatic SC', cursive;
 	color: rgb(111, 37, 111);
-	font-size: 120px;
-	margin-top: 20px;
+	font-size: 9vw;
+	margin-top: 1.5%;
 	margin-bottom: 0px;
 }
 
 h3{
 	font-family: 'Special Elite', cursive;
 	color: rgb(111, 37, 111);
- 	font-size: 20px;
+ 	font-size: 2vw;
  	margin-top: 0px;
  	margin-bottom: 0px;
 }
 
+/*links to other pages*/
 .pages{
-	padding: 20px;
+	padding: 1.5%;
 	border-width: 2px;
 	border-style: solid none solid none;
 }
@@ -53,22 +56,24 @@ a:hover{
 .pages a{
 	font-family: 'Amatic SC', cursive;
 	color: rgb(11, 15, 11);
-	font-size: 30px;
-	padding: 80px;
+	font-size: 200%;
+	padding: 0%;
+	margin: 7.5%;
 }
 
 .pages i{
-	padding-left: 50px;
+	padding-left: 3.75%;
 }
 
+/*covid-19 banner*/
 .covid{
 	background-color: rgb(163, 26, 22);
-	padding: 5px;
+	padding: 0.375%;
 }
 
 .covid a{
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 20px;
+	font-size: 120%;
 	color: rgb(255, 248, 50);
 }
 
@@ -76,54 +81,64 @@ a:hover{
   	float: right;
   	padding: 5px;
 }
+/*ALL PAGES*/
 
-.about, .pic, .error, p, li{
+/*font used across the website*/
+.about, .pic, p, li, .contact{
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 20px;
+	font-size: 130%;
 }
 
+/*TOUR*/
+/*actors info portion*/
 .actors{
-	background-color: rgba(16, 142, 121, 0.5);
+	background-color: rgba(111, 37, 111, 0.5);
 	float: right;
-	width: 310px;
-	margin-top: 20px;
-	margin-right: 50px;
-  	padding: 10px;
+	width: 30%;
+	margin-top: 0%;
+	margin-right: 3.75%;
+  	padding: 0.75%;
   	border-radius: 25px;
 }
 
 .actors p{
 	text-align: center;
-	background-color: rgb(16, 142, 121);
+	background-color: rgba(111, 37, 111, 0.8);
 	margin-top: 5px;
 	border-radius: 15px;
 }
 
 .actors img{
-	height: 90px;
-	width: 90px;
-	padding: 30px;
+	height: 30%;
+	width: 30%;
+	padding: 9%;
 }
+/*TOUR*/
 
+/*ABOUT*/
 .about{
-	padding-top: 20px;
+	padding-top: 1.5%;
 }
 
 .images{
 	float: right;
-	width: 400px;
-	padding: 30px;
+	width: 38%;
+	padding: 5%;
 	padding-top: 0px;
 }
 
 .images img{
-	border-radius: 25px;
+	border-radius: 10%;
 	box-shadow: 7px 7px 3px rgb(180, 180, 180);
+	max-width: 100%;
 }
+/*ABOUT*/
 
+/*SHOP*/
 ul{
 	float: left;
-	width: 200px;
+	width: 15%;
+	cursor: pointer;
 }
 
 li:hover{
@@ -139,15 +154,77 @@ li:hover{
 	border-width: 2px;
 	border-radius: 5px;
 	margin-right: 10px;
+	max-width: 100%;
 }
 
 .pic{
 	float: right;
-	width: 800px;
-	padding: 20px;
+	width: 75%;
+	padding: 2%;
 }
+/*SHOP*/
 
+/*ERROR/SHOPPING CART*/
 .error{
 	margin-right: 10px;
 	margin-left: 10px;
 }
+/*ERROR/SHOPPING CART*/
+
+/*CONTACT US*/
+.form{
+	width: 50%;
+	background-color: rgba(111, 37, 111, 0.3);
+	margin-top: 2%;
+	border-radius: 20px;
+	padding: 2%;
+	float: left;
+}
+
+input[type=text], textarea{
+	width: 100%;
+	padding: 2%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	display: inline-block;
+	border-radius: 4px;
+	border-width: 1px;
+	border-color: rgb(220,220,220);
+	box-sizing: border-box;
+}
+
+textarea{
+	height: 100px;
+}
+
+input[type=text]:hover, input[type=text]:focus, textarea:hover, textarea:focus{
+	border-color: rgb(8,127,197);
+}
+
+input[type=submit]{
+	width: 100%;
+	padding: 2%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	border-radius: 4px;
+	border-width: 1px;
+	background-color: rgb(43,168,43);
+	color: white;
+}
+
+input[type=submit]:hover{
+	background-color: rgb(58,133,58);
+}
+
+.contact{
+	width: 35%;
+	float: right;
+	margin-top: 2%;
+	border-left: 2px solid black;
+}
+
+.contact i{
+	padding: 2%;
+	padding-left: 5%;
+}
+/*CONTACT US*/
