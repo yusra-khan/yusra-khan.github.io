@@ -1,31 +1,4 @@
 
-let logo = document.getElementById("logo");
-// let up = logo.contentDocument.getElementById("up");
-// let down = logo.contentDocument.getElementById("down");
-// logo.addEventListener('mouseenter', () => {
-// 	console.log(up);
-// 	up.style.display = "inline";
-// 	down.style.display = "none";
-// })
-// logo.addEventListener = ("mouseleave", () => {
-// 	down.style.display = "none";
-// 	up.style.display = "inline";
-// })
-// logo.addEventListener('mouseenter',() => {
-// 	logo.src = "logo2.png";
-// })
-// logo.addEventListener('mouseleave',() => {
-// 	logo.src = "logo1.png";
-// })
-
-// logo.addEventListener('click', () => {
-// 	open("index.html");
-// })
-
-// let logo = document.getElementById("logo2");
-// logo.addEventListener('click', () => {
-// 	open("index.html");
-// })
 let bg = document.getElementById("about");
 let me = document.getElementById("me");
 me.addEventListener("mouseenter", () => {
@@ -68,8 +41,3 @@ pic.addEventListener('mouseleave', () => {
 	pic.src = "pic1.png";
 })
 
-// let website = document.getElementById("one");
-// website.addEventListener('mouseenter', () => {
-// 	website.src = "website.png";
-// 	website.style.backgroundImage = "url('website.jpg')";
-// })
